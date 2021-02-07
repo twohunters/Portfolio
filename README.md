@@ -18,9 +18,9 @@ Visit the links listed above.
 
 This page serves as a digital portfolio of my published work as a full-stack developer, to be shared publicly and with professional associates and potential employers.
 
-![Portfolio Deployed](./assets/images/portfolio-deployed.png)
+![Portfolio Deployed](./assets/images/portfolio-deployed.PNG)
 
-![Portfolio Repository](./assets/images/portfolio-repo.png)
+![Portfolio Repository](./assets/images/portfolio-repo.PNG)
 
 
 ## Credits
