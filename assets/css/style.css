@@ -23,6 +23,7 @@ body {
 a {
     text-decoration: none;
     margin-left: 10px;
+    color: var(--biggray);
 }
 
 a:visited {
@@ -102,7 +103,6 @@ main {
     box-shadow: 15px 15px 5px var(--hovertext);
     overflow: auto;
 }
-
 #projects {
     display: flex;
     flex-wrap: wrap;
