@@ -1,13 +1,25 @@
+* {
+    --greenL: #d3ded9;
+    --greenM: #a6bcb3;
+    --greenD: #202b26;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     text-transform: lowercase;
+    background-color: var(--greenL);
+    color: var(--greenD)
+}
+
+.cardColor {
+    background-color: var(--greenM);
 }
 
 h1 {
     text-transform: uppercase;
 }
 
-.aboutMe {
+#about {
     overflow: hidden;
 }
 
