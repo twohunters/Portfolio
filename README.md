@@ -22,7 +22,7 @@ For further instructions, visit https://help.github.com.
 
 This page serves as a digital portfolio of my published work as a full-stack developer, to be shared publicly and with professional associates and potential employers.
 
-![Portfolio Deployed](./assets/images/deployed.PNG)
+![Portfolio Deployed](./assets/images/deployed.png)
 
 
 ## Credits
