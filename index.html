@@ -1,103 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Jason Anderson - Portfolio</title>
 </head>
 
 <body>
-    
+
     <header>
-        
-        <h1>Jason Anderson</h1>
-        
-        <nav>
-            <ul class="navLinks">
-                <li>
-                    <a href="#about">About Me</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h1 class="navbar-brand mb-0 font-weight-bold">Jason Anderson</h1>
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About Me</a>
                 </li>
-                <li>
-                    <a href="#projects">Projects</a>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
                 </li>
             </ul>
+            <ul class="navbar-nav">
+                <a href="mailto:jas.nanders.n@gmail.com">
+                    <i class="nav-link far fa-envelope" alt="email"></i>
+                </a>
+                <a href="https://github.com/twohunters">
+                    <i class="nav-link fab fa-github" alt="github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/jason-anderson-203aa9111/">
+                    <i class="nav-link fab fa-linkedin-in" alt="linkedin"></i>
+                </a>
+                <a href="https://www.instagram.com/eihwvz/">
+                    <i class="nav-link fab fa-instagram" alt="instagram"></i>
+                </a>
+            </ul>
         </nav>
-    
     </header>
-    
+
     <main>
-        
-        <section id="about" class="about">
-            
-            <h2 class="aboutmeTitle">About Me</h2>
-            <img class="biopic" src="assets/images/biopic.png" alt="Jason Anderson">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        
+        <section class="aboutMe bg-light m-3 p-3 rounded" id="about">
+            <img class="rounded float-left pr-3" src="assets/images/biopic.png" alt="Jason Anderson">
+            <p>do ya like jazz</p>
         </section>
-        
-        <section id="projects">
-            
-            <article class="webapp1">
-                <a href="https://www.webapp1.com/">
-                    <img class="webapp1Img" src="assets/images/webapp1.jpg" alt="Web Application 1">
+        <section class="row bg-light m-3 rounded " id="projects">
+            <article class="col p-3">
+                <a href="https://github.com/Carson133/click-note">
+                    <img class="thumbnail rounded" src="./assets/images/clicknote.png" alt="clicknote">
                 </a>
-                <h3>Web App 1</h3>
-                <p>This is a placeholder description of my first web app.</p>
+                <h5 class="py-3">clicknote</h5>
+                <p class="m-0">clicknote is a note-taking application with a weather widget created by myself and two other very talented web developers.</p>
             </article>
             
-            <article class="webapp2">
-                <a href="https://www.webapp2.com/">
-                    <img class="webapp2Img" src="assets/images/webapp2.png" alt="Web Application 2">
+            <article class="col p-3">
+                <a href="https://github.com/twohunters/JS-TIMED-MC-QUIZ">
+                    <img class="thumbnail rounded" src="./assets/images/mcquiz.png" alt="Timed Multiple Choice Quiz">
                 </a>
-                <h3>Web App 2</h3>
-                <p>This is a placeholder description of my second web app.</p>
+                <h5 class="py-3">Timed Multiple Choice Quiz</h5>
+                <p class="m-0">I created a short quiz about Javascript, featuring a high score list that displays at the end of the quiz.</p>
             </article>
             
-            <article class="webapp3">
-                <a href="https://www.webapp3.com/">
-                    <img class="webapp3Img" src="assets/images/webapp3.jpg" alt="Web Application 3">
+            <article class="col p-3">
+                <a href="https://github.com/twohunters/Personal-Planner">
+                    <img class="thumbnail rounded" src="./assets/images/scheduler.png" alt="Personal Planner">
                 </a>
-                <h3>Web App 3</h3>
-                <p>This is a placeholder description of my third web app.</p>
+                <h5 class="my-3">Personal Planner</h5>
+                <p class="m-0">I created an 8-hour scheduling app that saves content locally. As each hour passes in real time, the colors of each hour block change dynamically.</p>
             </article>
             
-            <article class="webapp4">
-                <a href="https://www.webapp4.com/">
-                    <img class="webapp4Img" src="assets/images/webapp4.jpg" alt="Web Application 4">
+            <article class="col p-3">
+                <a href="https://github.com/twohunters/systemic-countersign-generation">
+                    <img class="thumbnail rounded" src="./assets/images/passwordgen.png" alt="Randomized Password Generator">
                 </a>
-                <h3>Web App 4</h3>
-                <p>This is a placeholder description of my fourth web app.</p>
+                <h5 class="my-3">Password Generator</h5>
+                <p class="m-0">Need a new randomized password? I made a generator, click here!</p>
             </article>
-        
         </section>
-    
     </main>
-    
-    <footer>
-        
-        <h2>Contact</h2>
-        
-        <div class="contactLinks">
-           <a href="mailto:jas.nanders.n@gmail.com">
-                <img class="email" src="assets/images/email.png" alt="email">
-            </a>
-           
-            <a href="https://github.com/twohunters">
-                <img class="github" src="assets/images/github.png" alt="github">
-            </a>
-            
-            <a href="https://www.linkedin.com/in/jason-anderson-203aa9111/">
-                <img class="linkedin" src="assets/images/linkedin.png" alt="linkedin">
-            </a>
-            
-            <a href="https://www.instagram.com/eihwvz/">
-                <img class="instagram" src="assets/images/instagram.png" alt="instagram">
-            </a>
-        
-        </div>
-    
-    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
